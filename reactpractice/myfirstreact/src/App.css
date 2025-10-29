@@ -1,0 +1,10 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;             /* ✅ Make it span the full page width */
+  min-height: 90vh;
+  background: #f5f6fa;
+  padding: 40px 0;         /* adds spacing below navbar */
+  box-sizing: border-box;
+}
