@@ -8,7 +8,7 @@ function Book() {
         <img src={bookImage} alt="" style={{height:"270px",width:"150px"}} />
         <h1>Maths</h1>
         <p>by Amankumar Jha</p>
-        <span>Price: $10</span>
+        <span>Price: Rs.10</span>
 
     </div>
   )
