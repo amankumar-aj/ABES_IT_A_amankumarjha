@@ -1,16 +1,17 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
-import Cards from './components/Cards';
+
+import Buttoncolor from './components/Buttoncolor';
+
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <div className="App">
-        <Cards />
-      </div>
-    </>
+   
+    <div className="App">
+
+   <Buttoncolor />
+    </div>
+     
   );
 }
 

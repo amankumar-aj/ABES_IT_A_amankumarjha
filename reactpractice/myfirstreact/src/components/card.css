@@ -1,4 +1,5 @@
-/* card.css */.card {
+/* card.css */
+/*.card {
   width: 320px;
   background: #fff;
   border-radius: 16px;
@@ -10,10 +11,10 @@
   cursor: pointer;
 }
 
-/* .card:hover {
+ .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
-} */
+} 
 
 .card img {
   width: 100%;
@@ -27,3 +28,4 @@
   margin: 15px 0;
   font-family: 'Poppins', sans-serif;
 }
+*/
