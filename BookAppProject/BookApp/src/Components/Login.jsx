@@ -1,17 +1,17 @@
 import React from 'react'
+import './AuthCard.css'
 
-function login() {
+function Login() {
   return (
-    <div>
-        <form action="">
-            <label htmlFor="username">Username:</label>
-            <input type="text" id='username' name='username' /><br />
-            <label htmlFor="password">Password:</label>
-            <input type="password" id='password' name='password' /><br />
-            <button type="submit">Login</button>
-        </form>
+    <div className="auth-container">
+      <div className="auth-card">
+        <h2>Login</h2>
+        <input type="text" placeholder="Enter Email" />
+        <input type="password" placeholder="Enter Password" />
+        <button>Login</button>
+      </div>
     </div>
   )
 }
 
-export default login
+export default Login

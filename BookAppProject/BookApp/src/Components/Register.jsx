@@ -1,17 +1,16 @@
 import React from 'react'
+import './AuthCard.css'
 
 function Register() {
   return (
-    <div>
-        <form action="">
-            <label htmlFor="username">Username:</label>
-            <input type="text" id='username' name='username' /><br />
-            <label htmlFor="email">Email:</label>
-            <input type="email" id='email' name='email' /><br />
-            <label htmlFor="password">Password:</label>
-            <input type="password" id='password' name='password' /><br />
-            <button type="submit">Register</button>
-        </form>
+    <div className="auth-container">
+      <div className="auth-card">
+        <h2>Register</h2>
+        <input type="text" placeholder="Full Name" />
+        <input type="email" placeholder="Email" />
+        <input type="password" placeholder="Password" />
+        <button>Sign Up</button>
+      </div>
     </div>
   )
 }
