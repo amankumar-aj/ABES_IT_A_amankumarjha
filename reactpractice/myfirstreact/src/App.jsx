@@ -1,18 +1,17 @@
-import React from 'react';
-import './App.css';
+import './App.css'
 
-import Buttoncolor from './components/Buttoncolor';
-
-
-function App() {
+import Link1 from './components/Link1'
+ function App() {
   return (
-   
-    <div className="App">
-
-   <Buttoncolor />
+    <div>
+      {/* Abes College
+      <Navbar1 />
+      <Grid /> 
+      <UseeState /> */}
+      <Link1 />
+      <Count />
     </div>
-     
-  );
-}
+  )
+ }    
 
-export default App;
+export default App

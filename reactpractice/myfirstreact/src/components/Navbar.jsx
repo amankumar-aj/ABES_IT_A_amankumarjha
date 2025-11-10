@@ -1,17 +1,21 @@
-import React from 'react';
-import './Navbar.css';
+import React from 'react'
+import './Navbar.css'
 
-function Navbar() {
+function Navbar(){
   return (
-    <nav className="navbar">
-      <div className="navbar-logo">Panda</div>
-      <ul className="navbar-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">About</a></li>
-      </ul>
-    </nav>
-  );
+    <>
+    <div id="nav">
+    <Link name='\' href='home' >Home</Link>
+    <Link name='\about' href='about'>About Us</Link>
+    <Link name='\contact' href='contact'>Contact</Link>
+    <a href=""></a>
+    <a href=""></a>
+    <a href=""></a>
+    <a href=""></a>
+    <Link name='\signup' href='signup'>SignUp</Link>
+    <Link name='\login' href='login'>Login</Link>
+    </div>
+    </>
+  )
 }
-
 export default Navbar;
