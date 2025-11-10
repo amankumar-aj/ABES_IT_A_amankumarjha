@@ -8,6 +8,8 @@ function Navbar(){
     <a href='home' >Home</a>
     <a href='about'>About Us</a>
     <a href='contact'>Contact</a>
+    <a href='login'>Login</a>
+    <a href='Register'>SignUp</a>
     </div>
     </>
   )
