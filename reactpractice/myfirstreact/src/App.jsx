@@ -1,17 +1,33 @@
 import './App.css'
+import { useEffect, useState } from 'react';
+import Fashion from './components/Fashion'; // 
 
-import Link1 from './components/Link1'
- function App() {
+function App() {
+  const [Fa1, setFa1] = useState([]);
+
+  useEffect(() => {
+    fetch('https://fakestoreapi.com/products')
+      .then(res => res.json())
+      .then(data => setFa1(data))
+      .catch(err => console.error("Error fetching data:", err));
+  }, []);
+
   return (
-    <div>
-      {/* Abes College
-      <Navbar1 />
-      <Grid /> 
-      <UseeState /> */}
-      <Link1 />
-      <Count />
+    <div className="App">
+      {Fa1.map((f, i) => (
+        <Fashion
+          key={i}
+          // image={f.image}
+          // title={f.title}
+          // price={f.price}
+          // description={f.description}
+          props={f}
+         
+         
+        />
+      ))}
     </div>
-  )
- }    
+  );
+}
 
-export default App
+export default App;
