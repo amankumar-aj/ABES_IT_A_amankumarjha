@@ -6,7 +6,8 @@ function App() {
   const [Fa1, setFa1] = useState([]);
 
   useEffect(() => {
-    fetch('https://fakestoreapi.com/products')
+     fetch('https://fakestoreapi.com/products')
+    
       .then(res => res.json())
       .then(data => setFa1(data))
       .catch(err => console.error("Error fetching data:", err));

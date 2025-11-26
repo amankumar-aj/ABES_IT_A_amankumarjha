@@ -1,0 +1,34 @@
+.App1 {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.Card {
+  width: 200px;
+  padding: 15px;
+  border: 2px solid green;
+  border-radius: 10px;
+  background: #f8f8f8;
+  text-align: center;
+ 
+
+.Card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.Card h3 {
+  margin: 5px 0;
+  font-size: 18px;
+}

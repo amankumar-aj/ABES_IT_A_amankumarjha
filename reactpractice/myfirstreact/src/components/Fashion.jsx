@@ -2,7 +2,7 @@ import React from 'react';
 import './fashion.css';
 
 
-function Fashion(props) {
+function Fashion({props}) {
   return (
     <div className="fashion-store">
       <div>
